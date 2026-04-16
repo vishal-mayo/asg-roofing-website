@@ -7,7 +7,7 @@ const servicesData = [
     title: 'Asphalt Roofs',
     shortDesc: 'Premium waterproof roofing',
     fullDesc: 'We specialise in all aspects of Mastic Asphalt, considered amongst the best and most durable products available. Can be laid on flat roofs, steps, gutters, walkways and car parks. With over 30 years experience, our skilled team delivers exceptional quality workmanship.',
-    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-01.avif',
+    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-03.avif',
     features: ['50+ year lifespan', 'Fully waterproof', 'Fire resistant', 'Low maintenance']
   },
   {
@@ -31,7 +31,7 @@ const servicesData = [
     title: 'Tiled Roofs',
     shortDesc: 'Clay & concrete tiles',
     fullDesc: 'Traditional clay and concrete tile roofing for pitched roofs. We install new tiled roofs and repair existing ones, matching tiles perfectly for seamless extensions and repairs.',
-    image: '/images/portfolio/tiled-roofs/asg-tile-03.avif',
+    image: '/images/portfolio/tiled-roofs/asg-tile-06.avif',
     features: ['50+ year lifespan', 'Weather resistant', 'Various styles & colours', 'Traditional appearance']
   },
   {
