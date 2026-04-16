@@ -54,7 +54,7 @@ function Navbar() {
         
         <Link 
           to="/contact"
-          className="hidden md:block btn btn-primary btn-sm"
+          className="hidden md:block btn btn-primary"
         >
           <span>Get Estimate</span>
         </Link>
