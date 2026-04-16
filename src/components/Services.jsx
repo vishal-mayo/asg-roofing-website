@@ -12,7 +12,7 @@ const servicesData = [
   },
   {
     id: 'natural-man-made-slates',
-    title: 'Asphalt Roofs',
+    title: 'Slates',
     shortDesc: 'Traditional slate roofing',
     fullDesc: 'Natural Welsh and Spanish slates, hand made or machine made plain tiles, interlocking concrete tiles, and reclaimed slate products for older properties. We match existing roofs perfectly for seamless repairs and extensions.',
     image: '/images/portfolio/natural-man-made-slates/asg-slate-02.avif',
@@ -52,10 +52,10 @@ const servicesData = [
   },
   {
     id: 'guttering-repairs',
-    title: 'Guttering & Roof Repairs',
+    title: 'Guttering & Repairs',
     shortDesc: 'Emergency repairs & maintenance',
     fullDesc: 'We offer comprehensive guttering and roof repair services. From minor leaks to major storm damage, our experienced team can handle all types of repairs quickly and efficiently.',
-    image: '/images/portfolio/high-performance-felt/asg-felt-01.avif',
+    image: '/images/portfolio/upvc-fascia-guttering/asg-upvc-02.avif',
     features: ['Rapid response', 'All roof types', 'Insurance work', 'Free quotes']
   },
   {
