@@ -31,7 +31,7 @@ const servicesData = [
     title: 'Tiled Roofs',
     shortDesc: 'Clay & concrete tiles',
     fullDesc: 'Traditional clay and concrete tile roofing for pitched roofs. We install new tiled roofs and repair existing ones, matching tiles perfectly for seamless extensions and repairs.',
-    image: '/images/portfolio/lead-roofing/asg-lead-03.avif',
+    image: '/images/portfolio/tiled-roofs/asg-tile-03.avif',
     features: ['50+ year lifespan', 'Weather resistant', 'Various styles & colours', 'Traditional appearance']
   },
   {

@@ -104,7 +104,7 @@ function ServicesPage() {
               <div className="absolute inset-0 z-0">
                 <img 
                   className="w-full h-full object-cover object-center opacity-40 group-hover:opacity-50 transition-opacity"
-                  src="/images/portfolio/lead-roofing/asg-lead-03.avif"
+                  src="/images/portfolio/tiled-roofs/asg-tile-03.avif"
                   alt="Tiled roofing"
                 />
                 <div className="absolute inset-0 bg-primary/60"></div>
