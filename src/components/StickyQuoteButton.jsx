@@ -30,7 +30,7 @@ function StickyQuoteButton() {
   return (
     <Link
       to="/contact"
-      className={`fixed bottom-6 right-6 z-50 btn btn-primary shadow-2xl ${
+      className={`fixed bottom-20 sm:bottom-6 right-4 sm:right-6 z-50 btn btn-primary shadow-2xl ${
         isPulsing ? 'animate-pulse' : ''
       }`}
     >
