@@ -96,12 +96,12 @@ const allImages = Object.values(portfolioImages).flat();
 const serviceCategories = [
   { id: 'all', label: 'All Projects' },
   { id: 'mastic-asphalt', label: 'Asphalt Roofs' },
-  { id: 'natural-man-made-slates', label: 'Asphalt Roofs' },
+  { id: 'natural-man-made-slates', label: 'Slates' },
   { id: 'high-performance-felt', label: 'Felt Roofs' },
+  { id: 'tiled-roofs', label: 'Tiled Roofs' },
   { id: 'lead-roofing', label: 'Lead Roofs' },
-  { id: 'copper-zinc-roofs', label: 'Zinc Roofs' },
-  { id: 'upvc-fascia-guttering', label: 'UPVC Fascias' },
-  { id: 'guttering-repairs', label: 'Guttering & Roof Repairs' }
+  { id: 'copper-zinc-roofs', label: 'Zinc & Copper Roofs' },
+  { id: 'upvc-fascia-guttering', label: 'UPVC Fascias' }
 ];
 
 export { portfolioImages, allImages, serviceCategories };

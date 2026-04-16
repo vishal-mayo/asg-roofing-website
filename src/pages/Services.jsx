@@ -56,13 +56,13 @@ function ServicesPage() {
             </div>
           </div>
 
-          {/* 02 Asphalt Roofs (Slates) */}
+          {/* 02 Slates */}
           <div className="md:col-span-5 pt-6 md:pt-12">
             <div className="bg-surface-container-low p-8 relative">
               <div className="absolute -top-12 right-0 w-24 h-24 bg-secondary flex items-center justify-center">
                 <span className="text-on-secondary font-headline font-bold text-4xl">02</span>
               </div>
-              <h3 className="text-3xl font-headline font-black mb-6 text-primary uppercase leading-tight">Asphalt Roofs<br/><span className="text-lg text-on-surface-variant">Natural & Man Made Slates</span></h3>
+              <h3 className="text-3xl font-headline font-black mb-6 text-primary uppercase leading-tight">Slates<br/><span className="text-lg text-on-surface-variant">Natural & Man Made</span></h3>
               <div className="space-y-6">
                 <div className="border-l-4 border-secondary-container pl-4">
                   <h4 className="font-headline font-bold text-primary">Natural Slates</h4>
@@ -97,7 +97,7 @@ function ServicesPage() {
             <p className="text-on-surface-variant mb-4">We are fully approved to install our chosen high performance felts and depending on specification, are able to offer 10 year, 15 year and 20 year insurance backed guarantees on all new roofs.</p>
           </div>
 
-          {/* 04 Lead Roofs */}
+          {/* 04 Tiled Roofs */}
           <div className="md:col-span-7">
             <div className="relative overflow-hidden bg-primary group">
               {/* Background Image */}
@@ -105,7 +105,7 @@ function ServicesPage() {
                 <img 
                   className="w-full h-full object-cover object-center opacity-40 group-hover:opacity-50 transition-opacity"
                   src="/images/portfolio/lead-roofing/asg-lead-03.avif"
-                  alt="Lead roofing"
+                  alt="Tiled roofing"
                 />
                 <div className="absolute inset-0 bg-primary/60"></div>
               </div>
@@ -113,8 +113,8 @@ function ServicesPage() {
               <div className="relative z-10 p-12 h-full min-h-[400px] flex flex-col justify-between">
                 <span className="text-secondary-container font-headline font-black text-5xl">04</span>
                 <div>
-                  <h3 className="text-3xl font-headline font-black text-white mb-4 uppercase">Lead Roofs</h3>
-                  <p className="text-white/80 max-w-md">Lead roofs are chosen not only for their beautiful finished look but also for the knowledge that it will last for over 100 years if installed professionally.</p>
+                  <h3 className="text-3xl font-headline font-black text-white mb-4 uppercase">Tiled Roofs</h3>
+                  <p className="text-white/80 max-w-md">Traditional clay and concrete tile roofing for pitched roofs. We install new tiled roofs and repair existing ones, matching tiles perfectly for seamless extensions and repairs.</p>
                 </div>
               </div>
             </div>
@@ -122,14 +122,14 @@ function ServicesPage() {
         </div>
       </section>
 
-      {/* 05 Zinc Roofs Section */}
+      {/* 05 Lead Roofs Section */}
       <section className="bg-surface-container-high py-24 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div className="max-w-2xl">
               <span className="text-secondary font-headline font-black text-5xl block mb-4">05</span>
-              <h2 className="text-5xl font-headline font-black text-primary tracking-tighter leading-none uppercase mb-6">Zinc Roofs</h2>
-              <p className="text-on-surface-variant text-lg">We offer zinc & copper roofing and cladding services to domestic, new builds, refurbishments and commercial builds. Zinc roofing is becoming more popular with architects due to its lasting appearance, sustainability and performance.</p>
+              <h2 className="text-5xl font-headline font-black text-primary tracking-tighter leading-none uppercase mb-6">Lead Roofs</h2>
+              <p className="text-on-surface-variant text-lg">Lead roofs are chosen not only for their beautiful finished look but also for the knowledge that it will last for over 100 years if installed professionally. Complete installations including flat roofs, pitched roofs, valley roofs, step flashings, and lead repairs.</p>
             </div>
             <div className="bg-primary text-on-primary p-6 inline-block">
               <span className="font-headline font-black text-3xl">100+ Years</span>
@@ -138,74 +138,101 @@ function ServicesPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="bg-white p-6 border-b-4 border-secondary">
-              <h4 className="font-headline font-bold text-lg text-primary mb-2">Zinc Roofing</h4>
+              <h4 className="font-headline font-bold text-lg text-primary mb-2">Lead Roofing</h4>
             </div>
             <div className="bg-white p-6 border-b-4 border-primary">
-              <h4 className="font-headline font-bold text-lg text-primary mb-2">Zinc Cladding</h4>
+              <h4 className="font-headline font-bold text-lg text-primary mb-2">Valley Gutters</h4>
             </div>
             <div className="bg-white p-6 border-b-4 border-secondary-container">
-              <h4 className="font-headline font-bold text-lg text-primary mb-2">Copper Roofing</h4>
+              <h4 className="font-headline font-bold text-lg text-primary mb-2">Step Flashings</h4>
             </div>
             <div className="bg-white p-6 border-b-4 border-secondary">
-              <h4 className="font-headline font-bold text-lg text-primary mb-2">Copper Cladding</h4>
+              <h4 className="font-headline font-bold text-lg text-primary mb-2">Lead Repairs</h4>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 06 UPVC Fascias & 07 Guttering & Roof Repairs */}
+      {/* 06 Zinc & Copper Roofs Section */}
       <section className="py-24 px-8 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* 06 UPVC Fascias */}
-          <div className="bg-surface-container-low p-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
             <span className="text-secondary font-headline font-black text-5xl block mb-6">06</span>
-            <h3 className="text-4xl font-headline font-black tracking-tight mb-6 text-primary uppercase">UPVC Fascias</h3>
-            <p className="text-on-surface-variant mb-6 leading-relaxed">
-              We can supply and fit a wide range of rainwater systems, both traditional and modern in a range of colours to suit all properties. Replacing UPVC fascias, guttering and soffits to your home is a cost effective way to improve the appearance and increase the value of your home.
+            <h2 className="text-5xl font-headline font-black text-primary tracking-tighter leading-none uppercase mb-6">Zinc & Copper Roofs</h2>
+            <p className="text-on-surface-variant text-lg mb-6">
+              We offer zinc & copper roofing and cladding services to domestic, new builds, refurbishments and commercial builds. These premium materials develop beautiful patinas over time and can last over 100 years with minimal maintenance.
             </p>
             <ul className="space-y-3 text-on-surface-variant">
               <li className="flex items-center gap-3">
                 <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                Low maintenance
+                Zinc Roofing & Cladding
               </li>
               <li className="flex items-center gap-3">
                 <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                Economical and long lasting
+                Copper Roofing & Cladding
               </li>
               <li className="flex items-center gap-3">
                 <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                Range of colours available
+                Self-healing patina
+              </li>
+              <li className="flex items-center gap-3">
+                <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                100+ year lifespan
               </li>
             </ul>
           </div>
+          <div className="relative overflow-hidden aspect-[4/3]">
+            <img 
+              className="w-full h-full object-cover"
+              src="/images/portfolio/copper-zinc-roofs/asg-copper-zinc-copper-01.jpg"
+              alt="Zinc and copper roofing"
+            />
+          </div>
+        </div>
+      </section>
 
-          {/* 07 Guttering & Roof Repairs */}
-          <div className="bg-primary text-on-primary p-12">
-            <span className="text-secondary-container font-headline font-black text-5xl block mb-6">07</span>
-            <h3 className="text-4xl font-headline font-black tracking-tight mb-6 uppercase">Guttering & Roof Repairs</h3>
-            <p className="text-on-primary-container mb-6 leading-relaxed">
-              We offer comprehensive guttering and roof repair services. From minor leaks to major storm damage, our experienced team can handle all types of repairs quickly and efficiently.
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 p-4">
-                <h4 className="font-headline font-bold text-on-primary">Gutter Repairs</h4>
-              </div>
-              <div className="bg-white/10 p-4">
-                <h4 className="font-headline font-bold text-on-primary">Leak Detection</h4>
-              </div>
-              <div className="bg-white/10 p-4">
-                <h4 className="font-headline font-bold text-on-primary">Storm Damage</h4>
-              </div>
-              <div className="bg-white/10 p-4">
-                <h4 className="font-headline font-bold text-on-primary">Emergency Repairs</h4>
-              </div>
+      {/* 07 UPVC Fascias Section */}
+      <section className="bg-surface-container-low py-24 px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1 relative overflow-hidden aspect-[4/3]">
+              <img 
+                className="w-full h-full object-cover"
+                src="/images/portfolio/upvc-fascia-guttering/asg-upvc-01.avif"
+                alt="UPVC fascias and guttering"
+              />
+            </div>
+            <div className="order-1 md:order-2">
+              <span className="text-secondary font-headline font-black text-5xl block mb-6">07</span>
+              <h2 className="text-5xl font-headline font-black text-primary tracking-tighter leading-none uppercase mb-6">UPVC Fascias</h2>
+              <p className="text-on-surface-variant text-lg mb-6">
+                We can supply and fit a wide range of rainwater systems, both traditional and modern in a range of colours to suit all properties. Replacing UPVC fascias, guttering and soffits to your home is a cost effective way to improve the appearance and increase the value of your home.
+              </p>
+              <ul className="space-y-3 text-on-surface-variant">
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  Low maintenance
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  Economical and long lasting
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  Range of colours available
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  20 year guarantee
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
       {/* 08 Drone Surveys */}
-      <section className="bg-surface-container-low py-24 px-8">
+      <section className="py-24 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
