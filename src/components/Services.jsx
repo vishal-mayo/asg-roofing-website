@@ -23,8 +23,16 @@ const servicesData = [
     title: 'Felt Roofs',
     shortDesc: 'Modern felt roofing systems',
     fullDesc: 'High performance felt roofing systems installed by our specialist team. Ideal for garages, sheds, extensions and flat roofs. We use only premium materials with long guarantees.',
-    image: '/images/portfolio/high-performance-felt/asg-felt-03.avif',
+    image: '/images/portfolio/high-performance-felt/asg-felt-01.avif',
     features: ['Cost effective', 'Quick installation', '20+ year guarantee', 'Versatile applications']
+  },
+  {
+    id: 'tiled-roofs',
+    title: 'Tiled Roofs',
+    shortDesc: 'Clay & concrete tiles',
+    fullDesc: 'Traditional clay and concrete tile roofing for pitched roofs. We install new tiled roofs and repair existing ones, matching tiles perfectly for seamless extensions and repairs.',
+    image: '/images/portfolio/tiled-roofs/asg-tile-01.avif',
+    features: ['50+ year lifespan', 'Weather resistant', 'Various styles & colours', 'Traditional appearance']
   },
   {
     id: 'lead-roofing',
@@ -50,14 +58,7 @@ const servicesData = [
     image: '/images/portfolio/upvc-fascia-guttering/asg-upvc-01.avif',
     features: ['Maintenance free', '20 year guarantee', 'Various colours', 'Full replacement service']
   },
-  {
-    id: 'guttering-repairs',
-    title: 'Guttering & Repairs',
-    shortDesc: 'Emergency repairs & maintenance',
-    fullDesc: 'We offer comprehensive guttering and roof repair services. From minor leaks to major storm damage, our experienced team can handle all types of repairs quickly and efficiently.',
-    image: '/images/portfolio/upvc-fascia-guttering/asg-upvc-02.avif',
-    features: ['Rapid response', 'All roof types', 'Insurance work', 'Free quotes']
-  },
+
   {
     id: 'drone',
     title: 'Drone Surveys',
