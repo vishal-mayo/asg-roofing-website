@@ -98,9 +98,9 @@ function RoofAgeCalculator({ compact = false }) {
               {/* Calculate Button - Full width below */}
               <button 
                 onClick={calculateLifespan}
-                className="w-full bg-secondary hover:bg-secondary-container text-on-secondary font-black uppercase tracking-widest py-4 rounded-xl transition-all duration-300 text-base shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]"
+                className="btn btn-primary-alt btn-full"
               >
-                Calculate
+                <span>Calculate</span>
               </button>
             </div>
           ) : (
@@ -153,8 +153,7 @@ function RoofAgeCalculator({ compact = false }) {
                 {result.status !== 'good' && (
                   <a 
                     href="/contact" 
-                    className="btn-collision"
-                    style={{ width: '180px', height: '44px', lineHeight: '44px', fontSize: '11px' }}
+                    className="btn btn-primary-alt btn-sm"
                   >
                     <span>Book Free Inspection</span>
                   </a>
@@ -216,9 +215,9 @@ function RoofAgeCalculator({ compact = false }) {
             <div className="flex items-end">
               <button 
                 onClick={calculateLifespan}
-                className="w-full bg-secondary hover:bg-secondary-container text-on-secondary font-bold uppercase tracking-wider py-3 rounded-lg transition-colors"
+                className="btn btn-primary-alt btn-full"
               >
-                Calculate
+                <span>Calculate</span>
               </button>
             </div>
           </div>
@@ -264,9 +263,9 @@ function RoofAgeCalculator({ compact = false }) {
                 {result.status !== 'good' && (
                   <a 
                     href="/contact" 
-                    className="inline-block mt-4 bg-primary text-white px-6 py-2 rounded-lg font-bold uppercase tracking-wider text-sm hover:bg-primary/90 transition-colors"
+                    className="btn btn-primary-alt btn-sm mt-4"
                   >
-                    Book Free Inspection
+                    <span>Book Free Inspection</span>
                   </a>
                 )}
               </div>

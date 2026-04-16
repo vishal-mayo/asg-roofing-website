@@ -13,7 +13,7 @@ function CTASection() {
           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter mb-8 font-headline">Get Your Free Quote <br/>Today.</h2>
           <p className="text-on-primary-container text-lg mb-10 max-w-xl">Contact us today for a free, no-obligation quote on your roofing project. We cover all types of roofing work including repairs, installations, and maintenance.</p>
           <div className="flex flex-col sm:flex-row gap-6">
-            <a href="/contact" className="btn-collision" style={{ color: '#fff', borderColor: '#fff' }}>
+            <a href="/contact" className="btn btn-secondary-alt">
               <span>Request Quote</span>
             </a>
             <div className="flex flex-col justify-center">

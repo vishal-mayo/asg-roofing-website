@@ -16,11 +16,11 @@ function ServicesPage() {
             ASG Roofing Ltd specialises in all aspects of roofing for residential, commercial and industrial properties across London and surrounding areas. 30+ years experience with City & Guilds certified roofers.
           </p>
           <div className="flex gap-4">
-            <Link to="/contact" className="bg-secondary text-on-secondary px-8 py-4 font-headline font-black uppercase text-sm tracking-widest shadow-xl hover:bg-secondary-container transition-colors">
-              Get Free Quote
+            <Link to="/contact" className="btn btn-primary-alt">
+              <span>Get Free Quote</span>
             </Link>
-            <a href="tel:01992812252" className="border-b-4 border-secondary text-on-primary px-8 py-4 font-headline font-black uppercase text-sm tracking-widest hover:border-secondary-container transition-colors">
-              Call 01992 812252
+            <a href="tel:01992812252" className="btn btn-secondary-alt">
+              <span>Call 01992 812252</span>
             </a>
           </div>
         </div>
@@ -254,11 +254,11 @@ function ServicesPage() {
                 We offer an emergency call-out service for all roofing problems. Rapid response team available for urgent repairs and storm damage.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:01992812252" className="bg-secondary text-on-secondary px-10 py-5 font-headline font-black text-sm tracking-[0.2em] uppercase hover:bg-secondary-container transition-colors text-center">
-                  Call 01992 812252
+                <a href="tel:01992812252" className="btn btn-primary-alt">
+                  <span>Call 01992 812252</span>
                 </a>
-                <a href="tel:07956293612" className="border-2 border-secondary text-on-primary px-10 py-5 font-headline font-black text-sm tracking-[0.2em] uppercase hover:bg-secondary hover:text-on-secondary transition-colors text-center">
-                  Mobile 07956 293612
+                <a href="tel:07956293612" className="btn btn-secondary-alt">
+                  <span>Mobile 07956 293612</span>
                 </a>
               </div>
             </div>

@@ -126,9 +126,9 @@ function PortfolioPage() {
                 <div className="md:hidden p-2 border-t border-outline-variant/30">
                   <button 
                     onClick={() => setIsDropdownOpen(false)}
-                    className="w-full py-3 bg-secondary text-on-secondary font-bold uppercase tracking-widest text-sm"
+                    className="btn btn-primary btn-full btn-sm"
                   >
-                    Close
+                    <span>Close</span>
                   </button>
                 </div>
               </div>
@@ -220,11 +220,11 @@ function PortfolioPage() {
           Contact us today for a free, no-obligation quote. We cover all types of roofing work across London and surrounding areas.
         </p>
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
-          <Link to="/contact" className="bg-secondary text-on-secondary px-12 py-5 font-bold uppercase tracking-[0.2em] hover:bg-secondary-container transition-all text-lg active:scale-95 duration-200 shadow-xl">
-            Get Free Quote
+          <Link to="/contact" className="btn btn-primary btn-lg">
+            <span>Get Free Quote</span>
           </Link>
-          <Link to="/services" className="border-b-4 border-primary px-12 py-5 font-bold uppercase tracking-[0.2em] text-lg hover:text-secondary hover:border-secondary transition-all">
-            View Our Services
+          <Link to="/services" className="btn btn-secondary btn-lg">
+            <span>View Our Services</span>
           </Link>
         </div>
       </section>

@@ -120,9 +120,9 @@ function ServiceModal({ service, onClose }) {
           <Link 
             to="/contact"
             onClick={onClose}
-            className="block w-full bg-[#1a2744] text-white text-center py-4 font-bold uppercase tracking-wider hover:bg-orange-600 transition-colors rounded-lg"
+            className="btn btn-primary btn-full"
           >
-            Request a Quote
+            <span>Request a Quote</span>
           </Link>
         </div>
       </div>
@@ -380,9 +380,8 @@ function Services() {
               <div className="h-1 w-24 bg-secondary mb-6"></div>
               <p className="text-on-surface-variant leading-relaxed">We cover all aspects of roofing for residential, commercial and industrial properties across London and surrounding areas. All work carried out to the highest standard at competitive prices.</p>
             </div>
-            <Link to="/services" className="flex items-center gap-4 text-secondary font-bold uppercase tracking-widest text-xs hover:opacity-80 transition">
-              View All Services
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <Link to="/services" className="btn btn-primary btn-sm">
+              <span>View All Services</span>
             </Link>
           </div>
         </div>

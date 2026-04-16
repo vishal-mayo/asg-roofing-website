@@ -54,9 +54,9 @@ function Navbar() {
         
         <Link 
           to="/contact"
-          className="hidden md:block bg-secondary text-on-secondary px-6 py-2 font-headline font-bold uppercase tracking-wider text-sm scale-95 active:scale-100 duration-200 hover:bg-secondary-container transition-colors"
+          className="hidden md:block btn btn-primary btn-sm"
         >
-          Get Estimate
+          <span>Get Estimate</span>
         </Link>
 
         <div className="md:hidden">
@@ -103,10 +103,10 @@ function Navbar() {
           </div>
           <Link 
             to="/contact"
-            className="block w-full bg-secondary text-on-secondary px-6 py-3 font-headline font-bold uppercase tracking-wider text-sm text-center hover:bg-secondary-container transition-colors"
+            className="block w-full btn btn-primary btn-full"
             onClick={() => setIsOpen(false)}
           >
-            Get Estimate
+            <span>Get Estimate</span>
           </Link>
         </div>
       )}

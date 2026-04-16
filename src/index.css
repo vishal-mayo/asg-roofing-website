@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.05;
 }
 
-/* Collision Button Animation */
+/* ============================================
+   BUTTON SYSTEM - 4 VARIANTS
+   ============================================ */
+
+/* Collision Button Animation Keyframes */
 @keyframes criss-cross-left {
   0% { left: -20px; }
   50% { left: 50%; width: 20px; height: 20px; }
@@ -35,61 +39,156 @@ h1, h2, h3, h4, h5, h6 {
   100% { right: 50%; width: 375px; height: 375px; }
 }
 
-.btn-collision {
+/* Base Button Styles */
+.btn {
   position: relative;
-  display: inline-block;
-  width: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 56px;
-  line-height: 56px;
+  padding: 0 32px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 13px;
-  color: rgb(157, 67, 0);
+  font-weight: 600;
   text-decoration: none;
-  border: 2px solid rgb(157, 67, 0);
+  border: 2px solid;
   overflow: hidden;
   background: transparent;
   transition: color 0.8s ease;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
-.btn-collision::before,
-.btn-collision::after {
+.btn::before,
+.btn::after {
   content: '';
   position: absolute;
   top: 50%;
   width: 20px;
   height: 20px;
-  background: rgb(157, 67, 0);
   border-radius: 50%;
   z-index: 0;
+  transition: none;
 }
 
-.btn-collision::before {
+.btn::before {
   left: -20px;
   transform: translate(-50%, -50%);
 }
 
-.btn-collision::after {
+.btn::after {
   right: -20px;
   transform: translate(50%, -50%);
 }
 
-.btn-collision span {
+.btn span {
   position: relative;
   z-index: 1;
 }
 
-.btn-collision:hover {
-  color: #fff;
-}
-
-.btn-collision:hover::before {
+.btn:hover::before {
   animation: criss-cross-left 0.8s both;
   animation-direction: alternate;
 }
 
-.btn-collision:hover::after {
+.btn:hover::after {
   animation: criss-cross-right 0.8s both;
   animation-direction: alternate;
+}
+
+/* --------------------------------------------
+   PRIMARY - Dark Orange (for light backgrounds)
+   -------------------------------------------- */
+.btn-primary {
+  color: #9d4300;
+  border-color: #9d4300;
+}
+
+.btn-primary::before,
+.btn-primary::after {
+  background: #9d4300;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+}
+
+/* --------------------------------------------
+   PRIMARY ALT - Bright Orange (for dark backgrounds)
+   -------------------------------------------- */
+.btn-primary-alt {
+  color: #fd761a;
+  border-color: #fd761a;
+}
+
+.btn-primary-alt::before,
+.btn-primary-alt::after {
+  background: #fd761a;
+}
+
+.btn-primary-alt:hover {
+  color: #051125;
+}
+
+/* --------------------------------------------
+   SECONDARY - Black (for light backgrounds)
+   -------------------------------------------- */
+.btn-secondary {
+  color: #1c1b1b;
+  border-color: #1c1b1b;
+}
+
+.btn-secondary::before,
+.btn-secondary::after {
+  background: #1c1b1b;
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+}
+
+/* --------------------------------------------
+   SECONDARY ALT - White (for dark backgrounds)
+   -------------------------------------------- */
+.btn-secondary-alt {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-secondary-alt::before,
+.btn-secondary-alt::after {
+  background: #ffffff;
+}
+
+.btn-secondary-alt:hover {
+  color: #051125;
+}
+
+/* --------------------------------------------
+   SIZE VARIANTS
+   -------------------------------------------- */
+.btn-sm {
+  height: 44px;
+  padding: 0 24px;
+  font-size: 11px;
+}
+
+.btn-lg {
+  height: 64px;
+  padding: 0 48px;
+  font-size: 14px;
+}
+
+/* --------------------------------------------
+   FULL WIDTH
+   -------------------------------------------- */
+.btn-full {
+  width: 100%;
+}
+
+/* Legacy class for backward compatibility */
+.btn-collision {
+  composes: btn btn-primary;
 }

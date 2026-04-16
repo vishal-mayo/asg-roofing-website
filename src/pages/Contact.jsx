@@ -119,10 +119,9 @@ function ContactPage() {
               <button 
                 type="submit"
                 disabled={status === 'sending'}
-                className="w-full bg-primary text-on-primary py-4 font-headline font-black uppercase tracking-[0.2em] hover:bg-tertiary transition-all duration-300 flex items-center justify-center gap-3"
+                className="btn btn-primary btn-full"
               >
-                Get Your Quote
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary-container"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                <span>Get Your Quote</span>
               </button>
             </form>
           </div>
@@ -230,10 +229,9 @@ function ContactPage() {
             </p>
             <a 
               href="mailto:asgroofingltd@yahoo.com" 
-              className="inline-flex items-center gap-4 bg-secondary text-on-secondary px-10 py-5 font-headline font-black uppercase tracking-widest hover:bg-secondary-container transition-all"
+              className="btn btn-primary-alt"
             >
-              Email Now
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>Email Now</span>
             </a>
           </div>
         </div>

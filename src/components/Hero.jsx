@@ -38,10 +38,10 @@ function Hero() {
             ASG Roofing Ltd is a well-established, family-run roofing company with over 30 years' experience. We specialise in Mastic Asphalt, slating, tiling, lead work, and all roof repairs for residential, commercial and industrial properties.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="/contact" className="btn-collision">
+            <a href="/contact" className="btn btn-primary-alt">
               <span>Get Free Quote</span>
             </a>
-            <a href="/services" className="btn-collision" style={{ color: '#fff', borderColor: '#fff' }}>
+            <a href="/services" className="btn btn-secondary-alt">
               <span>Our Services</span>
             </a>
           </div>

@@ -30,8 +30,8 @@ function StickyQuoteButton() {
   return (
     <Link
       to="/contact"
-      className={`fixed bottom-6 right-6 z-50 bg-secondary text-on-secondary px-6 py-4 font-headline font-black uppercase tracking-wider text-sm shadow-2xl rounded-lg transition-all duration-300 hover:scale-105 hover:bg-secondary-container ${
-        isPulsing ? 'animate-pulse shadow-secondary/50' : ''
+      className={`fixed bottom-6 right-6 z-50 btn btn-primary shadow-2xl ${
+        isPulsing ? 'animate-pulse' : ''
       }`}
     >
       <span className="flex items-center gap-2">

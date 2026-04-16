@@ -16,9 +16,9 @@ function Emergency() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="tel:01234567890" 
-                className="bg-primary text-on-primary px-8 py-4 text-center uppercase tracking-wider font-semibold hover:bg-primary/90 transition"
+                className="btn btn-secondary"
               >
-                Call Emergency Line
+                <span>Call Emergency Line</span>
               </a>
             </div>
           </div>
