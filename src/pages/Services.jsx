@@ -236,7 +236,7 @@ function ServicesPage() {
             <div className="relative overflow-hidden aspect-[4/3]">
               <img 
                 className="w-full h-full object-cover"
-                src="/images/portfolio/copper-zinc-roofs/asg-copper-zinc-06.avif"
+                src="/images/portfolio/drone-survey.jpg"
                 alt="Drone roof survey"
               />
             </div>

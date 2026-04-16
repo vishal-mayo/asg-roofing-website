@@ -63,7 +63,7 @@ const servicesData = [
     title: 'Drone Surveys',
     shortDesc: 'Aerial roof inspections',
     fullDesc: 'Advanced aerial roof inspections using drone technology. Safe, accurate assessments without the need for scaffolding. High-resolution imagery and detailed reports for insurance claims and maintenance planning.',
-    image: '/images/portfolio/copper-zinc-roofs/asg-copper-zinc-06.avif',
+    image: '/images/portfolio/drone-survey.jpg',
     features: ['High-resolution photos', 'No scaffolding needed', 'Detailed reports', 'Insurance approved']
   }
 ]
