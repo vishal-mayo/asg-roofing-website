@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.blueprint-grid {
+  background-image: radial-gradient(circle, #75777d 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.05;
+}
+
+/* Collision Button Animation */
+@keyframes criss-cross-left {
+  0% { left: -20px; }
+  50% { left: 50%; width: 20px; height: 20px; }
+  100% { left: 50%; width: 375px; height: 375px; }
+}
+
+@keyframes criss-cross-right {
+  0% { right: -20px; }
+  50% { right: 50%; width: 20px; height: 20px; }
+  100% { right: 50%; width: 375px; height: 375px; }
+}
+
+.btn-collision {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  color: rgb(157, 67, 0);
+  text-decoration: none;
+  border: 2px solid rgb(157, 67, 0);
+  overflow: hidden;
+  background: transparent;
+  transition: color 0.8s ease;
+}
+
+.btn-collision::before,
+.btn-collision::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background: rgb(157, 67, 0);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.btn-collision::before {
+  left: -20px;
+  transform: translate(-50%, -50%);
+}
+
+.btn-collision::after {
+  right: -20px;
+  transform: translate(50%, -50%);
+}
+
+.btn-collision span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-collision:hover {
+  color: #fff;
+}
+
+.btn-collision:hover::before {
+  animation: criss-cross-left 0.8s both;
+  animation-direction: alternate;
+}
+
+.btn-collision:hover::after {
+  animation: criss-cross-right 0.8s both;
+  animation-direction: alternate;
+}
