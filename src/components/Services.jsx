@@ -39,7 +39,7 @@ const servicesData = [
     title: 'Lead Roofs',
     shortDesc: 'Traditional leadwork specialists',
     fullDesc: 'Lead roofs lasting over 100 years when installed professionally. Complete installations including flat roofs, pitched roofs, valley roofs, step flashings, and lead repairs. Our craftsmen are trained in traditional leadworking techniques.',
-    image: '/images/portfolio/lead-roofing/asg-lead-03.avif',
+    image: '/images/portfolio/lead-roofing/asg-lead-12.jpg',
     features: ['100+ year lifespan', 'Fully recyclable', 'Heritage specialists', 'Custom flashings']
   },
   {

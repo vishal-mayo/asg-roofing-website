@@ -62,6 +62,13 @@ const portfolioImages = {
       title: `Lead Roofing Project 11`,
       location: "London",
       description: "Professional lead roofing with skylight installation"
+    },
+    {
+      src: `/images/portfolio/lead-roofing/asg-lead-12.jpg`,
+      alt: `Lead roofing project 12 - ASG Roofing London`,
+      title: `Lead Roofing Project 12`,
+      location: "London",
+      description: "Lead valley and flashing installation on slate roof"
     }
   ],
   
