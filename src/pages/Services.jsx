@@ -15,11 +15,11 @@ function ServicesPage() {
           <p className="text-on-primary-container max-w-xl text-lg mb-10 leading-relaxed font-body">
             ASG Roofing Ltd specialises in all aspects of roofing for residential, commercial and industrial properties across London and surrounding areas. 30+ years experience with City & Guilds certified roofers.
           </p>
-          <div className="flex gap-4">
-            <Link to="/contact" className="btn btn-primary-alt">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
+            <Link to="/contact" className="btn btn-primary-alt w-full sm:w-auto text-center">
               <span>Get Free Quote</span>
             </Link>
-            <a href="tel:01992812252" className="btn btn-secondary-alt">
+            <a href="tel:01992812252" className="btn btn-secondary-alt w-full sm:w-auto text-center">
               <span>Call 01992 812252</span>
             </a>
           </div>
