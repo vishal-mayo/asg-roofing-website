@@ -7,7 +7,7 @@ const servicesData = [
     title: 'Asphalt Roofs',
     shortDesc: 'Premium waterproof roofing',
     fullDesc: 'We specialise in all aspects of Mastic Asphalt, considered amongst the best and most durable products available. Can be laid on flat roofs, steps, gutters, walkways and car parks. With over 30 years experience, our skilled team delivers exceptional quality workmanship.',
-    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-01.avif',
+    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-03.avif',
     features: ['50+ year lifespan', 'Fully waterproof', 'Fire resistant', 'Low maintenance']
   },
   {
@@ -31,7 +31,7 @@ const servicesData = [
     title: 'Tiled Roofs',
     shortDesc: 'Clay & concrete tiles',
     fullDesc: 'Traditional clay and concrete tile roofing for pitched roofs. We install new tiled roofs and repair existing ones, matching tiles perfectly for seamless extensions and repairs.',
-    image: '/images/portfolio/tiled-roofs/asg-tile-03.avif',
+    image: '/images/portfolio/tiled-roofs/asg-tile-06.avif',
     features: ['50+ year lifespan', 'Weather resistant', 'Various styles & colours', 'Traditional appearance']
   },
   {
@@ -135,7 +135,7 @@ function ServiceCard({ service, onClick }) {
   return (
     <div
       onClick={onClick}
-      className="group relative overflow-hidden rounded-2xl aspect-[4/5] text-left cursor-pointer flex-shrink-0 w-[280px] sm:w-[300px] select-none"
+      className="group relative overflow-hidden rounded-2xl aspect-[4/5] text-left cursor-pointer flex-shrink-0 w-[260px] sm:w-[280px] md:w-[300px] select-none snap-start"
     >
       <img 
         src={service.image}
@@ -392,20 +392,21 @@ function Services() {
           ref={containerRef}
           className="relative"
         >
-          {/* Left Fade */}
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-surface to-transparent z-10 pointer-events-none" />
+          {/* Left Fade - hidden on mobile */}
+          <div className="hidden md:block absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-surface to-transparent z-10 pointer-events-none" />
           
-          {/* Right Fade */}
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-surface to-transparent z-10 pointer-events-none" />
+          {/* Right Fade - hidden on mobile */}
+          <div className="hidden md:block absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-surface to-transparent z-10 pointer-events-none" />
 
           {/* Scrolling Track - Native scroll with drag */}
           <div 
             ref={trackRef}
-            className="flex gap-6 px-8 overflow-x-auto scrollbar-hide cursor-grab active:cursor-grabbing select-none"
+            className="flex gap-4 sm:gap-6 px-4 sm:px-8 overflow-x-auto scrollbar-hide cursor-grab active:cursor-grabbing select-none snap-x snap-mandatory"
             style={{ 
               scrollbarWidth: 'none', 
               msOverflowStyle: 'none',
-              WebkitOverflowScrolling: 'touch'
+              WebkitOverflowScrolling: 'touch',
+              scrollSnapType: 'x mandatory'
             }}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}

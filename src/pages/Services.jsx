@@ -15,11 +15,11 @@ function ServicesPage() {
           <p className="text-on-primary-container max-w-xl text-lg mb-10 leading-relaxed font-body">
             ASG Roofing Ltd specialises in all aspects of roofing for residential, commercial and industrial properties across London and surrounding areas. 30+ years experience with City & Guilds certified roofers.
           </p>
-          <div className="flex gap-4">
-            <Link to="/contact" className="btn btn-primary-alt">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
+            <Link to="/contact" className="btn btn-primary-alt w-full sm:w-auto text-center">
               <span>Get Free Quote</span>
             </Link>
-            <a href="tel:01992812252" className="btn btn-secondary-alt">
+            <a href="tel:01992812252" className="btn btn-secondary-alt w-full sm:w-auto text-center">
               <span>Call 01992 812252</span>
             </a>
           </div>
@@ -88,7 +88,7 @@ function ServicesPage() {
             <div className="relative overflow-hidden aspect-[4/5] mb-6">
               <img 
                 className="w-full h-full object-cover object-center"
-                src="/images/portfolio/high-performance-felt/asg-felt-05.avif"
+                src="/images/portfolio/high-performance-felt/asg-felt-01.avif"
                 alt="Felt roofing"
               />
               <div className="absolute bottom-0 right-0 bg-primary text-on-primary px-4 py-2 font-headline font-bold text-xl">03</div>
@@ -104,7 +104,7 @@ function ServicesPage() {
               <div className="absolute inset-0 z-0">
                 <img 
                   className="w-full h-full object-cover object-center opacity-40 group-hover:opacity-50 transition-opacity"
-                  src="/images/portfolio/tiled-roofs/asg-tile-03.avif"
+                  src="/images/portfolio/tiled-roofs/asg-tile-06.avif"
                   alt="Tiled roofing"
                 />
                 <div className="absolute inset-0 bg-primary/60"></div>
