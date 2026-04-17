@@ -37,11 +37,11 @@ function Hero() {
           <p className="text-lg text-on-primary-container font-medium mb-10 max-w-lg leading-relaxed">
             ASG Roofing Ltd is a well-established, family-run roofing company with over 30 years' experience. We specialise in Mastic Asphalt, slating, tiling, lead work, and all roof repairs for residential, commercial and industrial properties.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <a href="/contact" className="btn btn-primary-alt text-center justify-center">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
+            <a href="/contact" className="btn btn-primary-alt w-full sm:w-auto text-center">
               <span>Get Free Quote</span>
             </a>
-            <a href="tel:01992812252" className="btn btn-secondary-alt text-center justify-center">
+            <a href="tel:01992812252" className="btn btn-secondary-alt w-full sm:w-auto text-center">
               <span>Call 01992 812252</span>
             </a>
           </div>
