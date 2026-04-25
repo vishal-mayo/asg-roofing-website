@@ -30,7 +30,7 @@ const projects = [
     title: 'Copper & Zinc Installation',
     location: 'London',
     type: 'Technical',
-    image: '/images/portfolio/copper-zinc-roofs/asg-copper-zinc-04.avif'
+    image: '/images/portfolio/copper-zinc-roofs/asg-copper-04.avif'
   }
 ]
 

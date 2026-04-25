@@ -45,7 +45,7 @@ function Engineering() {
             <div className="aspect-square bg-surface-container-highest/5 absolute -top-10 -right-10 w-full h-full border border-white/5"></div>
             <img 
               className="relative z-10 w-full h-full object-cover grayscale brightness-75"
-              src="/images/portfolio/lead-roofing/asg-lead-02.avif"
+              src="/images/portfolio/lead-roofing/asg-lead-01.avif"
               alt="Expert roofing team at work"
             />
             <div className="absolute bottom-12 -left-12 z-20 bg-secondary-container p-8 max-w-xs shadow-2xl">

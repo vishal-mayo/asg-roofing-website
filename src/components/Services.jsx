@@ -7,7 +7,7 @@ const servicesData = [
     title: 'Asphalt Roofs',
     shortDesc: 'Premium waterproof roofing',
     fullDesc: 'We specialise in all aspects of Mastic Asphalt, considered amongst the best and most durable products available. Can be laid on flat roofs, steps, gutters, walkways and car parks. With over 30 years experience, our skilled team delivers exceptional quality workmanship.',
-    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-03.avif',
+    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-01.avif',
     features: ['50+ year lifespan', 'Fully waterproof', 'Fire resistant', 'Low maintenance']
   },
   {
@@ -15,7 +15,7 @@ const servicesData = [
     title: 'Slates',
     shortDesc: 'Traditional slate roofing',
     fullDesc: 'Natural Welsh and Spanish slates, hand made or machine made plain tiles, interlocking concrete tiles, and reclaimed slate products for older properties. We match existing roofs perfectly for seamless repairs and extensions.',
-    image: '/images/portfolio/natural-man-made-slates/asg-slate-02.avif',
+    image: '/images/portfolio/natural-man-made-slates/asg-slate-01.avif',
     features: ['Natural & synthetic options', 'Heritage matching', '100+ year lifespan', 'Weather resistant']
   },
   {
@@ -31,7 +31,7 @@ const servicesData = [
     title: 'Tiled Roofs',
     shortDesc: 'Clay & concrete tiles',
     fullDesc: 'Traditional clay and concrete tile roofing for pitched roofs. We install new tiled roofs and repair existing ones, matching tiles perfectly for seamless extensions and repairs.',
-    image: '/images/portfolio/tiled-roofs/asg-tile-06.avif',
+    image: '/images/portfolio/tiled-roofs/asg-tile-01.avif',
     features: ['50+ year lifespan', 'Weather resistant', 'Various styles & colours', 'Traditional appearance']
   },
   {
@@ -39,7 +39,7 @@ const servicesData = [
     title: 'Lead Roofs',
     shortDesc: 'Traditional leadwork specialists',
     fullDesc: 'Lead roofs lasting over 100 years when installed professionally. Complete installations including flat roofs, pitched roofs, valley roofs, step flashings, and lead repairs. Our craftsmen are trained in traditional leadworking techniques.',
-    image: '/images/portfolio/lead-roofing/asg-lead-12.jpg',
+    image: '/images/portfolio/lead-roofing/asg-lead-01.avif',
     features: ['100+ year lifespan', 'Fully recyclable', 'Heritage specialists', 'Custom flashings']
   },
   {
@@ -47,7 +47,7 @@ const servicesData = [
     title: 'Zinc & Copper Roofs',
     shortDesc: 'Premium metal roofing',
     fullDesc: 'Stunning copper and zinc roofing for prestigious projects. These premium materials develop beautiful patinas over time and can last over 100 years with minimal maintenance.',
-    image: '/images/portfolio/copper-zinc-roofs/asg-copper-zinc-copper-01.jpg',
+    image: '/images/portfolio/copper-zinc-roofs/asg-copper-01.avif',
     features: ['100+ year lifespan', 'Self-healing patina', 'Lightweight', 'Architectural grade']
   },
   {
@@ -60,11 +60,19 @@ const servicesData = [
   },
 
   {
+    id: 'asphalt-steps',
+    title: 'Asphalt Steps',
+    shortDesc: 'Steps, walkways & access areas',
+    fullDesc: 'We specialise in the installation and repair of mastic asphalt steps, walkways, and access areas. Providing a durable, slip-resistant surface suitable for both residential and commercial properties.',
+    image: '/images/portfolio/asphalt-steps/asg-steps-01.avif',
+    features: ['Steps & staircases', 'Walkways & paths', 'Car parks', 'Repairs & resurfacing']
+  },
+  {
     id: 'drone',
     title: 'Drone Surveys',
     shortDesc: 'Aerial roof inspections',
     fullDesc: 'Advanced aerial roof inspections using drone technology. Safe, accurate assessments without the need for scaffolding. High-resolution imagery and detailed reports for insurance claims and maintenance planning.',
-    image: '/images/portfolio/drone-survey.jpg',
+    image: '/images/portfolio/mastic-asphalt/asg-mastic-asphalt-02.avif',
     features: ['High-resolution photos', 'No scaffolding needed', 'Detailed reports', 'Insurance approved']
   }
 ]

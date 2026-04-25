@@ -170,7 +170,7 @@ function Contact() {
               <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none"></div>
               <img 
                 className="w-full h-[400px] object-cover grayscale contrast-125 shadow-2xl"
-                src="/images/portfolio/mastic-asphalt/asg-mastic-asphalt-03.avif"
+                src="/images/portfolio/mastic-asphalt/asg-mastic-asphalt-01.avif"
                 alt="Location map"
               />
               <div className="absolute bottom-6 left-6 bg-primary p-6 z-20">

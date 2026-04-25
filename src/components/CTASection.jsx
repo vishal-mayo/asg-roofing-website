@@ -5,7 +5,7 @@ function CTASection() {
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none">
           <img 
             className="w-full h-full object-cover grayscale invert" 
-            src="/images/portfolio/copper-zinc-roofs/asg-copper-zinc-01.avif"
+            src="/images/portfolio/copper-zinc-roofs/asg-copper-01.avif"
             alt="Get a free roofing quote"
           />
         </div>
